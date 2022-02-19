@@ -1,5 +1,174 @@
 /* header styling */
+header h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 36px;
+  height: 36px
+}
+
+header h4 {
+  font-family: 'VT323', monospace; 
+  color: grey;
+  font-size: 13px;
+  margin-left: 7px;
+  float:right;
+}
+header div img {
+  float: left;
+}
+
+header ul {
+  display: flex;
+  justify-content: right;
+  margin-left: auto;
+}
+#one {
+  margin: 1px;
+}
+#two {
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+}
+
+header ul li  {
+  display: inline-block;
+}
+header ul:last-child {
+  margin-left: 4em;
+  float: left;
+}
+
+
+header #leftHead {
+  display: inline-block;
+  margin-top: 2em;
+}
+
+#rightHead {
+  display: flex;
+  justify-content: right;
+  margin-left: auto;
+}
 
 /* main styling */
+body {
+  width: 70%;
+  font-family: 'IBM Plex Serif', serif;
+  margin: 0 auto;
+  background-image: url("img/hr-img.png");
+  background-repeat: repeat-x;
+  background-size: 10px;
+}
 
+h1 {
+  font-family: 'Francois One', sans-serif;
+  font-size: 30px;
+  margin-top: 1em;
+}
+
+h4 {
+  font-family: 'VT323', monospace; 
+  font-size: 13px;
+  color: grey;
+}
+#leftBodyHead{
+
+}
+
+#rightBodyHead {
+  display: flex;
+  justify-content: right;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+main p {
+  text-indent: 30px;
+  margin-top: 30px;
+  line-height: 20px;
+}
+
+#pizza {
+ width: 100%;
+}
+
+/* #recipe img{
+  z-index: 0;
+} */
+#recipe{
+  display: flex;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(./img/list-bg.png);
+}
+
+#recipe fieldset {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+input[type=checkbox]:checked + label{
+  text-decoration: line-through;
+}
 /* footer styling */
+
+.hr {
+  height: 10px;
+	background: url(img/hr-img.png) repeat-x 0 0;
+  border: 0;
+  transform: rotate(180dec)
+}
+
+footer {
+  margin: auto;
+  top: -200px;
+}
+
+footer img {
+
+}
+footer h4 {
+/* targetting Vanessa's name */
+font-family: 'VT323', monospace; 
+color: grey;
+font-size: 13px;
+margin-left: 7px;
+}
+
+footer p {
+/* targetting Food Enthusiast */
+display: flex;
+justify-content: left;
+margin-top: 2.5em;
+margin-left: 10px;
+}
+
+footer div p {
+  display: flex;
+  justify-content: center;
+}
+footer div img {
+  display: flex;
+  justify-content: center;
+}
+
+#smallLogo {
+ margin: auto;
+ justify-content: center;
+}
+footer #share {
+  /* targeting share recipe */
+  background-color: orangered;
+  border-radius: 5px;
+  height: 30px;
+  color: #000;
+  width: max-content;
+  justify-content: right;
+  
+}
+footer div p {
+  /* targetting copyright info */
+}
